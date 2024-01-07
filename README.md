@@ -1,22 +1,21 @@
-# # 18 My Social Network
+# 18 My Social Network
 
 ## Description
 
-This is my social network application where you can share your thoughts, react to friends thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and Moment.js to format timestamps. The seed data is created using Insomnia.
-
+This is my social network application where you can share your thoughts, react to friends thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, the Mongoose ODM, and Moment.js to format timestamps.
 
 ## Installation
 
 click the link to open app: https://github.com/AnthonyStrickland/My_Social_Network
 
 ## Usage
-Assets\Get all users.png
-Assets\Find one user.png
-Assets\Create user.png
-Assets\Update user.png
-Assets\Add friend.png
-Assets\Delete friend.png
-Assets\Delete user.png
+
+Assets\add a friend.png
+Assets\create user.png
+Assets\delete friend.png
+Assets\get 1 user.png
+Assets\get all users.png
+Assets\update user.png
 
 ## Credits
 https://www.w3schools.com
