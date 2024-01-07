@@ -18,7 +18,7 @@ module.exports = {
         .populate({ path: "thoughts", select: "-__v" })
         .populate({ path: "friends", select: "-__v" });
           if (!user){
-            return res.status(404).json({ message: "No User find with that ID!" })
+            return res.status(404).json({ message: "No User found with this ID!" })
           } 
           res.json(user)
       }   catch(err) { 
@@ -44,7 +44,7 @@ async updateUser(req, res) {
       { runValidators: true, new: true }
   );
     if (!user) {
-      return res.status(404).json({ message: "No User find with this ID!" })
+      return res.status(404).json({ message: "No User found with this ID!" })
     }    
     res.json(user)
   } catch(err) {

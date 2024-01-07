@@ -71,7 +71,7 @@ module.exports = {
       }
 
       res.status(200).json({
-      message: "Thought & reactions successfully deleted",
+      message: "Thought & reactions were deleted",
       });
     } catch (err) {
       res.status(500).json(err);
@@ -105,7 +105,7 @@ module.exports = {
       );
 
       if (!reaction) {
-        res.status(404).json({ message: "Check thought and reaction ID" });
+        res.status(404).json({ message: "not a thought and reaction ID" });
       }
 
       res.status(200).json(reaction);
